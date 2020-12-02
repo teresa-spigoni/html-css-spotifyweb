@@ -27,13 +27,13 @@
 
 .sidebar{
   width: 30vw;
-  height: 400px;
+  height: calc(100vh - 80px);
   background: lightgreen;
 }
 
 .content{
   width: 70vw;
-  height: 200px;
+  height: 100%;
   background: pink;
 }
 
