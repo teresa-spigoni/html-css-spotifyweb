@@ -82,6 +82,12 @@ main{
 .albums-bottom{
   background: #141922;
   height: calc(90vh - 80px);
+  text-align: center;
+}
+
+nav ul li{
+  display: inline-block;
+  padding: 0 10px;
 }
 
 footer{
