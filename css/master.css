@@ -1,14 +1,8 @@
+/* UTILITY */
 *{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
-
-.wrapper{
-  width: 100vw;
-  max-width: 100%;
-  height: 100vh;
-  background: #000;
 }
 
 .clearfix{
@@ -25,20 +19,36 @@
   float: right;
 }
 
+.p-15{
+  padding: 15px;
+}
+/* /UTILITY */
+
+.wrapper{
+  width: 100vw;
+  max-width: 100%;
+  height: 100vh;
+  background: #000;
+}
+
+main{
+  width: 100vw;
+}
+
 .sidebar{
-  width: 30vw;
+  width: 17vw;
   height: calc(100vh - 80px);
   background: lightgreen;
 }
 
-.content{
-  width: 70vw;
-  height: 100%;
+.albums{
+  width: 83vw;
+  height: calc(100vh - 80px);
   background: pink;
 }
 
 footer{
-  width: 100vw;
+  width: 100%;
   height: 80px;
   background: grey;
 }
