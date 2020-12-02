@@ -22,13 +22,32 @@
 .p-15{
   padding: 15px;
 }
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+.c-white{
+  color: #fff;
+}
+
+.c-grey{
+  color: #6e6e6e;
+}
+
+.border-b-grey{
+  border-bottom: 1px solid #6e6e6e
+}
 /* /UTILITY */
 
 .wrapper{
   width: 100vw;
   max-width: 100%;
   height: 100vh;
-  background: #000;
 }
 
 main{
@@ -38,17 +57,17 @@ main{
 .sidebar{
   width: 17vw;
   height: calc(100vh - 80px);
-  background: lightgreen;
+  background: #000;
 }
 
 .albums{
   width: 83vw;
   height: calc(100vh - 80px);
-  background: pink;
+  background: #141922;
 }
 
 footer{
   width: 100%;
   height: 80px;
-  background: grey;
+  background: #282828;
 }
