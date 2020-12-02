@@ -42,6 +42,25 @@ a{
 .border-b-grey{
   border-bottom: 1px solid #6e6e6e
 }
+
+.flex{
+  display: flex;
+}
+
+.item{
+  background: pink;
+  width: 200px;
+  height: 200px;
+}
+
+.space-b{
+  justify-content: space-between;
+}
+
+.inline-block{
+  display: inline-block;
+}
+
 /* /UTILITY */
 
 .wrapper{
@@ -63,6 +82,7 @@ main{
 .albums{
   width: 83vw;
   height: calc(100vh - 80px);
+  overflow-y: scroll;
 }
 
 .albums-top{
@@ -81,8 +101,11 @@ main{
 
 .albums-bottom{
   background: #141922;
-  height: calc(90vh - 80px);
+}
+
+nav{
   text-align: center;
+  padding-bottom: 20px;
 }
 
 nav ul li{
