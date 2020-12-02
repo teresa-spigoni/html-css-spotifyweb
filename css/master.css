@@ -113,8 +113,39 @@ nav ul li{
   padding: 0 10px;
 }
 
+.artisti .item{
+  border-radius: 50%;
+}
+
 footer{
   width: 100%;
   height: 80px;
+  line-height: 80px;
   background: #282828;
+}
+
+.footer-left{
+  height: 60px;
+  width: 200px;
+  background: lightgreen;
+  position: relative;
+  top: 10px;
+  margin-left: 15px;
+}
+
+.footer-center{
+  height: 60px;
+  width: 600px;
+  background: lightgreen;
+  position: relative;
+  top: 10px;
+}
+
+.footer-right{
+  height: 60px;
+  width: 200px;
+  background: lightgreen;
+  position: relative;
+  top: 10px;
+  margin-right: 15px;
 }
