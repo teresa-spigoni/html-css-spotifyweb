@@ -63,7 +63,25 @@ main{
 .albums{
   width: 83vw;
   height: calc(100vh - 80px);
+}
+
+.albums-top{
+  background: #080b12;
+  height: 10vh;
+  text-align: right;
+  line-height: 10vh;
+}
+
+.albums-top a{
+  border: 1px solid #fff;
+  border-radius: 15px;
+  padding: 7px 20px;
+
+}
+
+.albums-bottom{
   background: #141922;
+  height: calc(90vh - 80px);
 }
 
 footer{
