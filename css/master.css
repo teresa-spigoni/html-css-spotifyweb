@@ -74,22 +74,25 @@ main{
 }
 
 .sidebar{
-  width: 17vw;
+  width: 250px;
   height: calc(100vh - 80px);
   background: #000;
 }
 
 .albums{
-  width: 83vw;
+  width: calc(100% - 250px);
   height: calc(100vh - 80px);
   overflow-y: scroll;
 }
 
 .albums-top{
-  background: #080b12;
-  height: 10vh;
+  background: rgba(0,0,0,.5);
+  width: calc(100% - 250px);
+  height: 80px;
   text-align: right;
-  line-height: 10vh;
+  line-height: 80px;
+  position: fixed;
+  padding-right: 15px;
 }
 
 .albums-top a{
@@ -106,6 +109,7 @@ main{
 nav{
   text-align: center;
   padding-bottom: 20px;
+  margin-top: 80px;
 }
 
 nav ul li{
@@ -120,18 +124,35 @@ nav ul li{
 footer{
   width: 100%;
   height: 80px;
-  line-height: 80px;
   background: #282828;
+  position: fixed;
 }
 
 .footer-left{
   height: 60px;
-  width: 200px;
-  background: lightgreen;
   position: relative;
   top: 10px;
   margin-left: 15px;
 }
+
+.footer-left img{
+  height: 60px;
+  vertical-align: -15px;
+}
+
+.nome-brano{
+  padding-left: 10px;
+}
+
+.heart-folder{
+  vertical-align: 7px;
+  padding-left: 40px;
+}
+
+.heart-folder i{
+  padding-left: 10px;
+}
+
 
 .footer-center{
   height: 60px;
