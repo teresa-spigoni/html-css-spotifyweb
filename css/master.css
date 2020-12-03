@@ -48,9 +48,8 @@ a{
 }
 
 .item{
-  background: pink;
   width: 200px;
-  height: 200px;
+  text-align: center;
 }
 
 .space-b{
@@ -177,7 +176,11 @@ nav ul li{
   padding: 0 10px;
 }
 
-.artisti .item{
+.albums-bottom img{
+  width: 200px;
+}
+
+.artisti .item img{
   border-radius: 50%;
 }
 
