@@ -67,6 +67,7 @@ a{
   width: 100vw;
   max-width: 100%;
   height: 100vh;
+  font-family: 'Montserrat', sans-serif;
 }
 
 main{
@@ -130,6 +131,7 @@ footer{
 
 .footer-left{
   height: 60px;
+  width: 300px;
   position: relative;
   top: 10px;
   margin-left: 15px;
@@ -157,16 +159,24 @@ footer{
 .footer-center{
   height: 60px;
   width: 600px;
-  background: lightgreen;
   position: relative;
   top: 10px;
+  text-align: center;
+}
+
+.player-top i{
+  padding: 5px 10px;
 }
 
 .footer-right{
   height: 60px;
-  width: 200px;
-  background: lightgreen;
+  line-height: 60px;
+  width: 300px;
   position: relative;
   top: 10px;
   margin-right: 15px;
+}
+
+.footer-right i{
+  padding-right: 10px;
 }
