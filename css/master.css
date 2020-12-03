@@ -80,6 +80,65 @@ main{
   background: #000;
 }
 
+.sidebar-container{
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.sidebar-bottom{
+}
+
+.logo{
+  height: 60px;
+  padding-bottom: 20px;
+}
+
+.first-list li{
+  padding-bottom: 7px;
+}
+
+.iconeside{
+  height: 30px;
+  vertical-align: -7px;
+  padding-right: 10px;
+}
+
+.addplay{
+  vertical-align: -5px;
+  padding-top: 10px;
+}
+
+.second-list li{
+  padding-top: 10px;
+}
+
+
+.download img{
+  height: 20px;
+  vertical-align: middle;
+  margin-bottom: 5px;
+}
+
+.account img{
+  width: 20px;
+  height: 20px;
+  margin-top: 15px;
+  vertical-align: bottom;
+  background: #ccc;
+  border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
 .albums{
   width: calc(100% - 250px);
   height: calc(100vh - 80px);
@@ -93,7 +152,7 @@ main{
   text-align: right;
   line-height: 80px;
   position: fixed;
-  padding-right: 15px;
+  padding-right: 30px;
 }
 
 .albums-top a{
@@ -166,6 +225,7 @@ footer{
 
 .player-top i{
   padding: 5px 10px;
+  vertical-align: middle;
 }
 
 .footer-right{
