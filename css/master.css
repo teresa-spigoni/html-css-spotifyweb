@@ -52,6 +52,7 @@ a{
   text-align: center;
   display: inline-block;
   padding-bottom: 20px;
+  padding-right: 15px;
 }
 
 .space-b{
@@ -165,6 +166,7 @@ main{
 
 .albums-bottom{
   background: #141922;
+  padding-left: 15px;
 }
 
 nav{
