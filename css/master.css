@@ -87,6 +87,10 @@ a{
   position: relative;
 }
 
+.albumphoto:hover .imgalbum{
+ opacity: 0.5;
+}
+
 .albumphoto:hover .playhover{
   display: block;
 }
@@ -98,6 +102,10 @@ a{
   top: 50%;
   left: 50%;
   font-size: 60px;
+}
+
+.display-none{
+  display: none;
 }
 /* /UTILITY */
 
@@ -165,6 +173,11 @@ main{
   color: #fff;
 }
 
+.second-list{
+  overflow-y: auto;
+  height: 200px;
+}
+
 
 .download img{
   height: 20px;
@@ -180,7 +193,13 @@ main{
   background: #ccc;
   border-radius: 50%;
 }
-
+/*
+.sidebar-top{
+  height: calc(100% - 91px);
+}
+.sidebar-bottom{
+  height: 91px;
+} */
 
 
 
@@ -264,7 +283,7 @@ footer{
 
 .footer-left{
   height: 60px;
-  width: 25%;
+  width: 30%;
   position: relative;
   top: 10px;
   margin-left: 15px;
@@ -276,7 +295,7 @@ footer{
 }
 
 .nome-brano{
-  padding-left: 10px;
+  padding-left: 5px;
 }
 
 .b-n:hover{
@@ -301,7 +320,7 @@ footer{
 
 .footer-center{
   height: 60px;
-  width: 50%;
+  width: 40%;
   position: relative;
   top: 10px;
   text-align: center;
@@ -342,7 +361,7 @@ footer{
 .footer-right{
   height: 60px;
   line-height: 60px;
-  width: 25%;
+  width: 30%;
   position: relative;
   top: 10px;
   margin-right: 15px;
@@ -360,6 +379,10 @@ footer{
   .item{
     width: calc(100% / 4);
   }
+
+  .nome-brano{
+    font-size: 15px;
+  }
 }
 
 /* MEDIA QUERY SM */
@@ -367,9 +390,55 @@ footer{
   .item{
     width: calc(100% / 2);
   }
+
+  .footer-left, .footer-right{
+    width: 30%;
+  }
+
+  .footer-center{
+    width: 40%
+  }
+
+  .nome-brano{
+    font-size: 10px;
+  }
+
+  .heart-folder{
+    font-size: 12px;
+  }
 }
 
 /* MEDIA QUERY XS */
 @media screen and (max-width: 576px) {
+  .xs-none{
+    display: none;
+  }
 
+  .xs-block{
+    display: block;
+  }
+
+  .home{
+    border: none;
+  }
+
+  .sidebar{
+    width: 60px;
+  }
+
+  .albums{
+    width: calc(100% - 60px);
+  }
+
+  .albums-top{
+    width: calc(100% - 60px);
+  }
+
+  .footer-left, .footer-right{
+    width: 25%
+  }
+
+  .footer-center{
+    width: 50%;
+  }
 }
