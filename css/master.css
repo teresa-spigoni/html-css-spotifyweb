@@ -173,11 +173,6 @@ main{
   color: #fff;
 }
 
-.second-list{
-  overflow-y: auto;
-  height: 200px;
-}
-
 
 .download img{
   height: 20px;
@@ -193,13 +188,14 @@ main{
   background: #ccc;
   border-radius: 50%;
 }
-/*
+
 .sidebar-top{
   height: calc(100% - 91px);
+  overflow-y: auto;
 }
 .sidebar-bottom{
   height: 91px;
-} */
+}
 
 
 
