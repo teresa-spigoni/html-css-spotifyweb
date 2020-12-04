@@ -15,41 +15,47 @@
       <!-- Main -->
       <main class="clearfix">
         <!-- Sidebar -->
-        <div class="sidebar float-l p-15 c-white">
+        <div class="sidebar float-l c-white">
           <div class="flex sidebar-container">
             <!-- SidebarTop -->
             <div class="sidebar-item sidebar-top">
-              <a href="#"><img src="img/logo(2).svg" alt="" class="logo"></a>
+              <div class="p-t-15 p-l-15">
+                <a href="#"><img src="img/logo(2).svg" alt="" class="logo"></a>
+              </div>
               <ul class="first-list">
-                <li><a href="#" class="c-grey"><img src="img/home.svg" alt="" class="iconeside">Home</a></li>
-                <li><a href="#" class="c-grey"><img src="img/search.svg" alt="" class="iconeside">Cerca</a></li>
-                <li><a href="#" class="c-grey"><img src="img/libreria.svg" alt="" class="iconeside">La tua libreria</a></li>
+                <li class="home p-l-15"><a href="#" class="c-grey"><img src="img/home.svg" alt="" class="iconeside">Home</a></li>
+                <li class="p-l-15"><a href="#" class="c-grey"><img src="img/search.svg" alt="" class="iconeside">Cerca</a></li>
+                <li class="p-l-15"><a href="#" class="c-grey"><img src="img/libreria.svg" alt="" class="iconeside">La tua libreria</a></li>
               </ul>
               <br>
-              <h3>PLAYLIST</h3>
-              <div class="addplay inline-block">
-                <i class="fa fa-plus-square fa-2x"></i>
+              <div class="playlisy p-15">
+                <h3>PLAYLIST</h3>
+                <div class="add c-grey">
+                  <div class="addplay inline-block">
+                    <i class="fa fa-plus-square fa-2x"></i>
+                  </div>
+                  <div class="inline-block">Crea playlist</div>
+                </div>
+                <ul class="second-list">
+                  <li><a href="#" class="c-grey">Nome playlist</a></li>
+                  <li><a href="#" class="c-grey">Nome playlist</a></li>
+                  <li><a href="#" class="c-grey">Nome playlist</a></li>
+                  <li><a href="#" class="c-grey">Nome playlist</a></li>
+                  <li><a href="#" class="c-grey">Nome playlist</a></li>
+                  <li><a href="#" class="c-grey">Nome playlist</a></li>
+                  <li><a href="#" class="c-grey">Nome playlist</a></li>
+                  <li><a href="#" class="c-grey">Nome playlist</a></li>
+                </ul>
               </div>
-              <div class="inline-block c-grey">Crea playlist</div>
-              <ul class="second-list">
-                <li><a href="#" class="c-grey">Nome playlist</a></li>
-                <li><a href="#" class="c-grey">Nome playlist</a></li>
-                <li><a href="#" class="c-grey">Nome playlist</a></li>
-                <li><a href="#" class="c-grey">Nome playlist</a></li>
-                <li><a href="#" class="c-grey">Nome playlist</a></li>
-                <li><a href="#" class="c-grey">Nome playlist</a></li>
-                <li><a href="#" class="c-grey">Nome playlist</a></li>
-                <li><a href="#" class="c-grey">Nome playlist</a></li>
-              </ul>
             </div>
             <!-- /SidebarTop -->
             <!-- SidebarBottom -->
-            <div class="sidebar-item sidebar-bottom">
+            <div class="sidebar-item sidebar-bottom p-15">
               <div class="">
                 <div class="download inline-block">
                   <img src="img/download.svg" alt="">
                 </div>
-                <div class="inline-block">
+                <div class="inline-block installa-app">
                   <a href="#" class="c-grey">Installa app</a>
                 </div>
               </div>
@@ -71,7 +77,9 @@
         <div class="albums float-l">
           <!-- Albums top -->
           <div class="albums-top">
-            <a href="#" class="c-white">EFFETTUA L'UPGRADE</a>
+            <div class="upgrade">
+              <a href="#" class="c-white">EFFETTUA L'UPGRADE</a>
+            </div>
           </div>
           <!-- /Albums top -->
           <!-- Albums bottom -->
@@ -79,7 +87,7 @@
             <!-- Navbar -->
             <nav>
               <ul>
-                <li><a href="#" class="c-grey">IN EVIDENZA</a></li>
+                <li class="ev"><a href="#" class="c-grey">IN EVIDENZA</a> <hr> </li>
                 <li><a href="#" class="c-grey">PODCAST</a></li>
                 <li><a href="#" class="c-grey">CLASSIFICHE</a></li>
                 <li><a href="#" class="c-grey">GENERI E MOOD</a></li>
@@ -95,32 +103,50 @@
 
               <div class="flex recenti">
                 <div class="item">
-                  <img src="img/metal-lifting.jpg" alt="">
+                  <div class="albumphoto">
+                    <img src="img/metal-lifting.jpg" alt="">
+                    <i class="fa fa-play-circle-o c-white fa-2x playhover"></i>
+                  </div>
                   <h4>Heavy Metal</h4>
                   <h6 class="c-grey">Subtitle</h6>
                 </div>
                 <div class="item">
-                  <img src="img/stranger.jpeg" alt="">
+                  <div class="albumphoto">
+                    <img src="img/stranger.jpeg" alt="">
+                    <i class="fa fa-play-circle-o c-white fa-2x playhover"></i>
+                  </div>
                   <h4>Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)</h4>
                   <h6 class="c-grey">Kyle Dixon & Michael Stein</h6>
                 </div>
                 <div class="item">
-                  <img src="img/aquietplace.jpeg" alt="">
+                  <div class="albumphoto">
+                    <img src="img/aquietplace.jpeg" alt="">
+                    <i class="fa fa-play-circle-o c-white fa-2x playhover"></i>
+                  </div>
                   <h4>A quiet place</h4>
                   <h6 class="c-grey">Subtitle</h6>
                 </div>
                 <div class="item">
-                  <img src="img/split.jpeg" alt="">
+                  <div class="albumphoto">
+                    <img src="img/split.jpeg" alt="">
+                    <i class="fa fa-play-circle-o c-white fa-2x playhover"></i>
+                  </div>
                   <h4>Split</h4>
                   <h6 class="c-grey">Subtitle</h6>
                 </div>
                 <div class="item">
-                  <img src="img/cure.jpeg" alt="">
+                  <div class="albumphoto">
+                    <img src="img/cure.jpeg" alt="">
+                    <i class="fa fa-play-circle-o c-white fa-2x playhover"></i>
+                  </div>
                   <h4>A cure for wellness</h4>
                   <h6 class="c-grey">Subtitle</h6>
                 </div>
                 <div class="item">
-                  <img src="img/sinister.jpeg" alt="">
+                  <div class="albumphoto">
+                    <img src="img/sinister.jpeg" alt="">
+                    <i class="fa fa-play-circle-o c-white fa-2x playhover"></i>
+                  </div>
                   <h4>Sinister</h4>
                   <h6 class="c-grey">Subtitle</h6>
                 </div>
@@ -135,11 +161,17 @@
 
               <div class="flex">
                 <div class="item">
-                  <img src="img/radar.jpeg" alt="">
+                  <div class="albumphoto">
+                    <img src="img/radar.jpeg" alt="">
+                    <i class="fa fa-headphones playhover"></i>
+                  </div>
                   <h4>Release Radar</h4>
                 </div>
                 <div class="item">
-                  <img src="img/mixdaily.jpeg" alt="">
+                  <div class="albumphoto">
+                    <img src="img/mixdaily.jpeg" alt="">
+                    <i class="fa fa-headphones playhover"></i>
+                  </div>
                   <h4>Daily Mix 1</h4>
                 </div>
               </div>
@@ -152,11 +184,17 @@
               <br>
               <div class="flex">
                 <div class="item">
-                  <img src="img/youg.jpeg" alt="">
+                  <div class="albumphoto">
+                    <img src="img/youg.jpeg" alt="">
+                    <i class="fa fa-arrow-right playhover"></i>
+                  </div>
                   <h4>Lana del Rey</h4>
                 </div>
                 <div class="item">
-                  <img src="img/einaudi.jpeg" alt="">
+                  <div class="albumphoto">
+                    <img src="img/einaudi.jpeg" alt="">
+                    <i class="fa fa-arrow-right playhover"></i>
+                  </div>
                   <h4>Ludovico Einaudi</h4>
                 </div>
               </div>
@@ -176,22 +214,25 @@
 
       <!-- Footer -->
       <footer class="flex space-b c-white">
+        <!-- Footer Left -->
         <div class="footer-left">
           <a href="#"><img src="img/sinister.jpeg" alt=""></a>
           <div class="inline-block nome-brano">
             <span>Sinister</span><br>
-            <span class="c-grey">Brano nome</span>
+            <span class="c-grey b-n">Brano nome</span>
           </div>
           <div class="inline-block heart-folder">
-            <a href="#"><i class="fa fa-heart-o c-white"></i></a>
-            <a href="#"><i class="fa fa-folder-o c-white"></i></a>
+            <a href="#"><i class="fa fa-heart-o c-grey"></i></a>
+            <a href="#"><i class="fa fa-folder-o c-grey"></i></a>
           </div>
         </div>
+        <!-- /Footer Left -->
+        <!-- Footer Center -->
         <div class="footer-center">
           <div class="player-top">
             <a href="#"><i class="fa fa-random c-white"></i></a>
             <a href="#"><i class="fa fa-step-backward c-white"></i></a>
-            <a href="#"><i class="fa fa-play-circle-o c-white fa-2x"></i></a>
+            <a href="#"><i class="fa fa-play-circle-o c-white fa-2x playplay"></i></a>
             <a href="#"><i class="fa fa-step-forward c-white"></i></a>
             <a href="#"><i class="fa fa-repeat c-white"></i></a>
           </div>
@@ -200,21 +241,28 @@
               0:25
             </div>
             <div class="inline-block linea-grigia">
-              <div class="linea-bianca"></div>
+              <div class="linea-bianca">
+                <div class="point"></div>
+              </div>
             </div>
             <div class="inline-block">
               4:35
             </div>
           </div>
         </div>
+        <!-- /Footer Center -->
+        <!-- Footer Right -->
         <div class="footer-right">
           <a href="#"><i class="fa fa-list c-white"></i></a>
           <a href="#"><i class="fa fa-desktop c-white"></i></a>
           <a href="#"><i class="fa fa-volume-up c-white"></i></a>
           <div class="inline-block linea-grigia">
-            <div class="linea-bianca"></div>
+            <div class="linea-bianca">
+              <div class="point"></div>
+            </div>
           </div>
         </div>
+        <!-- /Footer Right -->
       </footer>
       <!-- /Footer -->
     </div>
