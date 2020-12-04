@@ -191,12 +191,16 @@ main{
 
 .sidebar-top{
   height: calc(100% - 91px);
-  overflow-y: auto;
+  /* overflow-y: auto; */
 }
 .sidebar-bottom{
   height: 91px;
 }
 
+.second-list{
+  overflow-y: scroll;
+  height: 300px;
+}
 
 
 
