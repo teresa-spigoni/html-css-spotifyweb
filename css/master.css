@@ -1,4 +1,4 @@
-/* UTILITY */
+/* Utility Classes */
 *{
   box-sizing: border-box;
   margin: 0;
@@ -136,8 +136,8 @@ a{
 .player-bar:hover .white-point{
   display: block;
 }
-/* /UTILITY */
 
+/* Main Classes */
 main{
   width: 100vw;
 }
@@ -165,7 +165,7 @@ main{
   padding-bottom: 20px;
 }
 
-.first-list li{
+.menu li{
   padding-bottom: 7px;
 }
 
@@ -184,7 +184,7 @@ main{
   padding-top: 10px;
 }
 
-.second-list li{
+.play-list li{
   padding-top: 10px;
 }
 
@@ -208,13 +208,15 @@ main{
   border-radius: 50%;
 }
 
-.main-section{
+/* --------------------------------------- */
+
+.central-section{
   width: calc(100% - 200px);
   height: calc(100vh - 80px);
   overflow-y: scroll;
 }
 
-.main-section-top{
+.central-section-header{
   background: rgba(0,0,0,.5);
   width: calc(100% - 200px);
   height: 80px;
@@ -237,7 +239,7 @@ main{
   font-size: 16px;
 }
 
-.main-section-bottom{
+.central-section-main{
   background: #141922;
   padding-left: 15px;
 }
@@ -262,7 +264,7 @@ nav ul li{
   border-bottom: 3px solid #6c4675;
 }
 
-.main-section-bottom img{
+.central-section-main img{
   width: 100%;
 }
 
@@ -273,6 +275,8 @@ nav ul li{
 .artists img{
   border-radius: 50%;
 }
+
+/* Footer Classes */
 
 footer{
   width: 100%;
@@ -341,7 +345,7 @@ footer{
   padding-right: 10px;
 }
 
-/* MEDIA QUERY MD */
+/* Media Query MD */
 @media screen and (max-width: 992px){
   .item{
     width: calc(100% / 4);
@@ -352,7 +356,7 @@ footer{
   }
 }
 
-/* MEDIA QUERY SM */
+/* Media Query SM */
 @media screen and (max-width: 768px){
   .item{
     width: calc(100% / 2);
@@ -375,7 +379,7 @@ footer{
   }
 }
 
-/* MEDIA QUERY XS */
+/* Media Query XS */
 @media screen and (max-width: 576px) {
   .xs-none{
     display: none;
@@ -393,11 +397,11 @@ footer{
     border: none;
   }
 
-  .main-section{
+  .central-section{
     width: calc(100% - 60px);
   }
 
-  .main-section-top{
+  .central-section-header{
     width: calc(100% - 60px);
   }
 
